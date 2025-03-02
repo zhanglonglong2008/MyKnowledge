@@ -1,6 +1,6 @@
 
-# 使用pyenv
-   是的，**pyenv 可以轻松查询本地已安装的 Python 版本**。以下是具体操作步骤和解释：
+# 使用pyenv查询python
+ **pyenv 可以轻松查询本地已安装的 Python 版本**。以下是具体操作步骤和解释：
 
 ---
 
@@ -70,5 +70,5 @@
 如有其他问题（如安装失败或版本冲突），可提供具体错误信息进一步排查。
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDQyMzc5MF19
+eyJoaXN0b3J5IjpbMjAyODUyNzU1MF19
 -->
