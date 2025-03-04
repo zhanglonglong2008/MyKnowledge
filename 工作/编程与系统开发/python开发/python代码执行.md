@@ -6,7 +6,9 @@ mac OS环境下使用.txt文本格式存储，并将扩展名修改为.py格式
 
 # 执行python文件
 
+例如一个游戏命名为 ：  snake_game.py
+执行程序命令为：python3 snake_game.py
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzAxNjU4Nl19
+eyJoaXN0b3J5IjpbLTE4MjEzMDY3MTNdfQ==
 -->
