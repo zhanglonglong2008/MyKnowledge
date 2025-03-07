@@ -1,0 +1,17 @@
+name: Sync from Gitee
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # 每6小时同步一次
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Gitee repo
+        run: git clone https://gitee.com/BigEngineer-zhang/stackedit-app-data
+      - name: Push to GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd 仓库名
+          git remote add github git@github.com:zhanglonglong2008/MyKnowledge.git
+          git push github master
